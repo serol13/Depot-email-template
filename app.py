@@ -289,7 +289,7 @@ if to_a:
     if bcc_a: parts.append(f"<span>BCC:</span> {bcc_a}")
     st.markdown(f'<div class="rcpt-bar">{" &nbsp;&nbsp;|&nbsp;&nbsp; ".join(parts)}</div>', unsafe_allow_html=True)
 else:
-    st.warning("No recipient configured for this case type. Edit `data/recipients.csv` in your GitHub repo.")
+    st.warning("No recipient configured for this case type. Edit `recipients.csv` in your GitHub repo.")
 
 # ── Input tabs ────────────────────────────────────────────────────────────────
 tab_form, tab_upload = st.tabs(["Fill in Details", "Upload File"])
@@ -354,7 +354,7 @@ with tab_upload:
 
             if st.button("Generate Bulk Email", key="bulk_btn"):
                 if not to_a:
-                    st.error("No recipient configured. Edit data/recipients.csv first.")
+                    st.error("No recipient configured. Edit recipients.csv first.")
                 else:
                     combined = f"Dear Team,\n\nPlease find below all {sh['name']} cases requiring attention:\n\n"
                     for idx, (_, row) in enumerate(df.iterrows(), 1):
@@ -404,4 +404,4 @@ if st.session_state.preview:
                 unsafe_allow_html=True,
             )
         else:
-            st.warning("Set recipients in data/recipients.csv first.")
+            st.warning("Set recipients in recipients.csv first.")
