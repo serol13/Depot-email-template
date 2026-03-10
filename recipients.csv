@@ -1,9 +1,9 @@
 sheet,to,cc,bcc
-Damage,,, 
-MPS Incomplete,,,
-Suspect Lost,,,
-Duplicate,,,
-EMY Zipcode (Reroute),,,
-Missing DO,,,
-Cancelled Shipment,,,
-Prealert Shipment,,,
+Damage,a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
+MPS Incomplete,a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
+Suspect Lost,a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
+Duplicate,a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
+EMY Zipcode (Reroute),a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
+Missing DO,a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
+Cancelled Shipment,a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
+Prealert Shipment,a.mat_zin@dhl.com,a.mat_zin@dhl.com,a.mat_zin@dhl.com 
