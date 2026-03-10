@@ -5,7 +5,7 @@ import os
 
 st.set_page_config(page_title="DHL Operations – Email Dashboard", layout="wide")
 
-RECIPIENTS_CSV = os.path.join(os.path.dirname(__file__), "data", "recipients.csv")
+RECIPIENTS_CSV = os.path.join(os.path.dirname(__file__), "recipients.csv")
 COMMON_COLS    = ["dhlParcelId", "Customer Name", "Date", "Remarks"]
 
 SHEETS = [
