@@ -70,7 +70,6 @@ SHEETS = [
 SHEET_MAP = {s["name"]: s for s in SHEETS}
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
-@st.cache_data
 def load_recipients():
     try:
         return pd.read_csv(RECIPIENTS_CSV, dtype=str).fillna("")
